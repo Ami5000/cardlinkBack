@@ -14,12 +14,5 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class UserController {
 
-    private final UserService utilisateurService;
 
-    // creation dun User a partir dun Dto
-    @PostMapping("/create")
-    public UtilisateurDto create(@RequestBody UtilisateurDto dto) {
-        log.info("Creation d'un utilisateur {}", dto);
-        return utilisateurService.create(dto);
-    }
 }
