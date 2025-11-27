@@ -1,4 +1,4 @@
 package com.api.cardlink.Repository;
 
-public class PayementRepository {
+public interface PayementRepository {
 }

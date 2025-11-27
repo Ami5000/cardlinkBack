@@ -1,4 +1,4 @@
 package com.api.cardlink.Entity;
 
-public class VCard {
+public class Vcard {
 }
